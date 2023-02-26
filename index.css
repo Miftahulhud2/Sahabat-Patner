@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background: rgb(32, 32, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+/* .container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+} */
+.sahabat {
+    margin-top: 20px;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+    box-shadow: 0 35px 55px rgb(0,0,0.1);
+    position: relative; /* tambahkan position relative pada .sahabat */
+}
+
+.sahabat:hover {
+    transition: 2s;
+    background-color: black;
+    height: 390px;
+}
+
+.sahabat:hover .text { /* perbarui selector agar .text bisa hover bareng */
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #504d4d, -2px -2px 4px #ffffff;
+    font-weight: 400;
+    font-size: 17px;
+    transition: 2s;
+    opacity: 1;
+    text-align:center;
+    position: absolute;
+    top: 300px; /* atur posisi teks */
+    left: 20px; /* atur posisi teks */
+}
+
+.sahabat:not(:hover) {
+    transition: 1s;
+}
+
+.text {
+    opacity: 0;
+}
+
+.sahabat img 
+{
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 50px;
+    height: 200px;
+    width: 200px;
+}
+.ipnu
+{
+    background-color: #fff;
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+    box-shadow:  0 35px 55px rgb(0,0,0.1);
+}
+.ipnu:hover
+{
+    transition: 2s;
+    background-color: #fff;   
+    height: 390px;
+}
+
+.ipnu:hover .text { /* perbarui selector agar .text bisa hover bareng */
+    color: #000000;
+    text-shadow: 2px 2px 4px #504d4d, -2px -2px 4px #2e2c2c;
+    font-weight: 400;
+    font-size: 17px;
+    text-transform: capitalize;
+    transition: 2s;
+    opacity: 1;
+    text-align:center;
+    position:static;
+    top: 300px; /* atur posisi teks */
+    left: 20px; /* atur posisi teks */
+}
+
+.ipnu:not(:hover) {
+    transition: 1s;
+}
+.ipnu img
+{
+    margin-left: 50px;
+    margin-top: 50px;
+    height: 200px;
+    width: 200px;
+}
+.bufp
+{
+    background-color: #fff;
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+    box-shadow:  0 35px 55px rgb(0,0,0.1);
+}
+.bufp:hover
+{
+    transition: 2s;
+    background-color: #fff;
+    height: 390px;
+}
+.bufp img
+{
+    margin-left: 50px;
+    margin-top: 50px;
+    height: 200px;
+    width: 200px;
+}
+.bufp:hover .text { /* perbarui selector agar .text bisa hover bareng */
+    color: #000000;
+    text-shadow: 2px 2px 4px #504d4d, -2px -2px 4px #2e2c2c;
+    font-weight: 400;
+    font-size: 17px;
+    text-transform: capitalize;
+    transition: 2s;
+    opacity: 1;
+    text-align:center;
+    position:static;
+    top: 300px; /* atur posisi teks */
+    left: 20px; /* atur posisi teks */
+}
+
+
+.bufp:not(:hover) {
+    transition: 1s;
+}
+
+
+
+
+
+/* ini untuk mengatur tampilan hp */
+@media (max-width: 1000px)
+{
+    .col
+    {
+        margin: 25px;
+    }
+}
