@@ -80,8 +80,8 @@ body
 }
 
 .ipnu:hover .text { /* perbarui selector agar .text bisa hover bareng */
-    color: #000000;
-    text-shadow: 2px 2px 4px #504d4d, -2px -2px 4px #2e2c2c;
+    color: #60ac09;
+    text-shadow: 2px 2px 4px #1be400, -2px -2px 4px #76dd00;
     font-weight: 400;
     font-size: 17px;
     text-transform: capitalize;
@@ -125,8 +125,8 @@ body
     width: 200px;
 }
 .bufp:hover .text { /* perbarui selector agar .text bisa hover bareng */
-    color: #000000;
-    text-shadow: 2px 2px 4px #504d4d, -2px -2px 4px #2e2c2c;
+    color: #60ac09;
+    text-shadow: 2px 2px 4px #1be400, -2px -2px 4px #76dd00;
     font-weight: 400;
     font-size: 17px;
     text-transform: capitalize;
