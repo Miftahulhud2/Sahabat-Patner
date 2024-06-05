@@ -1,0 +1,127 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+	outline: none;
+}
+/* Membuat gradient vertikal */
+body {
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+
+}
+.layout {
+	min-height: 1000px;
+	display: flex;
+	flex-direction: column;
+}
+nav {
+	z-index: 2;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 100px;
+	/* background-color: #ffeb3b; */
+}
+.header {
+	display: flex;
+	align-items: center;
+	width: 40%;
+}
+.header img {
+	max-width: 15%;
+	position: relative;
+}
+.header .title {
+	color: white;
+	font-size: medium;
+	width: 900vw;
+	display: flex;
+	flex-direction: column; 
+	align-items: center;
+}
+#home{
+	background: linear-gradient(to bottom, #374d9e, #30195c);
+	position: absolute;
+	margin-top: 0;
+	padding-top: 30vh;
+	height: 100vh;
+}
+#about{
+	margin-top: 560px;
+	height: 500px;
+	z-index: 100;
+	background-color: #ffeb3b;
+}
+.main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.main .img {
+	max-width: 50%;
+}
+.main .img img {
+	max-height: 70vh;
+}
+.main .misi {
+	max-width: 50%;
+}
+.miring {
+	font-family: "Courgette", cursive;
+	font-weight: 400;
+	font-style: normal;
+	color: white;
+}
+
+span {
+	color: #ffeb3b;
+}
+
+.footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+p {
+	color: white;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+	* {
+		margin: 0;
+		padding: 0;
+		text-decoration: none;
+		box-sizing: border-box;
+		outline: none;
+	}
+	.layout{
+		width: 100%;
+	}
+	.header {
+		display: flex;
+		flex-wrap: wrap;
+		width: 90%;
+		justify-content: center;
+	}
+	#home{
+		padding-left: 4%;
+		padding-right: 4%;
+	}
+	.header img {
+		max-width: 10%;
+	}
+	.header .title{
+		display: flex;
+		justify-content: flex-start;
+		width: 70%;
+		background-color: #374d9e;
+		font-size: small;
+	}
+	.main {
+		display: flex;
+		flex-direction: row-reverse;
+	}
+}
